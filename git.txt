@@ -1,0 +1,69 @@
+ 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
+git clone <url>
+-makes a copy of repository
+-stores it on your computer
+-a "fork" creates your own copy of someone else's repository
+
+
+git add <filename>
+-adds a file to "staging area"
+-tells git to include the file in the next revision to the repository
+-git add * adss all changed files
+
+
+git diff
+-all the changes made and haven't been tracked 
+
+
+git commit -m "message"
+-saves the changes to repository as a new revision (a "commit")
+-records a message
+-git commit -am "message" adds and commits in same step
+
+
+git status
+-shows current status of repository
+
+
+git push
+-sends committed changes to remote repository
+-more eplicitly, could write git push origin master
+
+
+git pull
+-retrieves changes from remote repository
+
+
+"Merge Conflict"
+-when two different commits can't be automatically merged
+-need to be resorved
+
+
+git log
+-show history of commits and messages
+
+
+git reset
+-git reset --hard <commit>
+--reverts code back to a previous commit
+-git reset --hard origin/master
+--reverts code back to remote repository version
+
+
+Branching
+*branch is a version of the git repository
+*each branch has its own commit history and current version
+
+git branch
+-show all branches of code
+-create a branch with git branch <branch_name>
+-switch to ("checkout") a new branch with git checkout <branch_name>
+-git branch -D <branch_name> to delete the branch
+
+
+git merge
+-git merge <branch_name> merges the branch_name with current branch
+
+
+pull requests
+
