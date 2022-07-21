@@ -1,5 +1,5 @@
 
-Class.ForName("com.sql..cj.jdbc.driver");
+/*Class.ForName("com.sql..cj.jdbc.driver");
 
 Connection con=Drivermanager.getConnection("jdbc:mysql//localhost:3306/dbname","root","password");
 
@@ -7,7 +7,7 @@ Statement st=con.Create statement()
 
 String query="select * from student"
 
-ResultSet rs=st.executeQuery(query)
+ResultSet rs=st.executeQuery(query)*/
 
 
 package kaya;
