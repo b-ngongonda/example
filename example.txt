@@ -1,0 +1,84 @@
+
+Class.ForName("com.sql..cj.jdbc.driver");
+
+Connection con=Drivermanager.getConnection("jdbc:mysql//localhost:3306/dbname","root","password");
+
+Statement st=con.Create statement()
+
+String query="select * from student"
+
+ResultSet rs=st.executeQuery(query)
+
+
+package kaya;
+
+import java.sql.*;
+
+public class sample {
+	
+	public static Connection dbConnect() throws Exception {
+	       
+		   String driver="com.mysql.cj.jdbc.Driver";
+		   String url="jdbc:mysql//localhost:3306/sample";
+		   String username="root";
+		   String password="brtxyz1000";
+		   
+		   try {
+			   Class.forName(driver);
+			   Connection con=DriverManager.getConnection(url,username,password);
+			   return con;
+			   
+		   }
+		   
+		   catch(SQLException e){
+			   return null;
+		   }
+			
+			
+		}
+	
+	public static void select() throws Exception {
+		Connection con=dbConnect();
+		Statement st=con.createStatement();
+		String query="select * from student order by id desc limit 2";
+		ResultSet rs=st.executeQuery(query);
+		
+		while(rs.next()!=false) {
+			    int id=rs.getInt("id");
+			    String name=rs.getString("name");
+			    String subject=rs.getString("subject");
+			    System.out.println(id+" "+name+" "+subject);
+
+		}
+		    st.close();
+		    con.close();
+			
+		
+	}
+	
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub 
+		
+
+
+
+	}
+	
+	public static void data() throws Exception {
+		String name="pluto";
+		String subject="geography";
+		Connection con=dbConnect();
+		String query="insert into student(name,subject)values('"+name+"','"+subject+"')";
+		
+	      // create the mysql insert preparedstatement
+	      PreparedStatement preparedStmt = con.prepareStatement(query);
+
+
+	      // execute the preparedstatement
+	      preparedStmt.execute();
+	}
+	
+
+
+}
