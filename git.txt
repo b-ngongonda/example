@@ -1,4 +1,4 @@
- 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
+ 
 git clone <url>
 -makes a copy of repository
 -stores it on your computer
