@@ -1,7 +1,5 @@
-Here is a DHIS2 Course to set you up to speed next time we meet:
+
 https://dhis2.org/academy/fundamentals/
-
-
 
 Here is the CommCare course: https://academy.dimagi.com/store
 
