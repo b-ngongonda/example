@@ -1,0 +1,80 @@
+Here is a DHIS2 Course to set you up to speed next time we meet:
+https://dhis2.org/academy/fundamentals/
+
+
+
+Here is the CommCare course: https://academy.dimagi.com/store
+
+
+What is CommCare? How does it work?
+-CommCare is a software platform that enables non-programmers to design and launch customized mobile applications for Android devices.* Developed by Dimagi.
+-for frontline workers
+
+HOW DOES COMMCARE WORK?
+Build an application
+Install  & use your application
+View and export collected data
+
+What can you do with CommCare?
+HOW IS COMMCARE USED?
+CommCare is designed so that users can fully customize their applications. For this reason, CommCare supports:
+
+Data collection - enabling application users to directly digitize information 
+Decision support - complex logic that guide users to ask the right questions 
+Job aids - can help users prioritize tasks, remind users to make visits, and conduct complex calculations
+Tracking - with case management, track items or people of interest over time.
+Counseling tool - CommCare can enhance counseling with multimedia like images, sound clips, and video.
+Supervision - data on user activity can be used to inform supportive supervision
+EXAMPLE COMMCARE PROJECT: TERRE DES HOMMES, BURKINA FASO
+
+
+Who uses CommCare? How are these users different?
+web users and mobile users
+
+
+BUILDING APPLICATIONS
+What are the different components of CommCare projects and applications?
+-applications are often about a specific topic
+-A form is a group of questions and messages that the user views sequentially in the CommCare application on a device.
+--forms comprise the core content of applications
+--Forms are customizable and support features like multiple languages, skip logic, validation, and multimedia. They also   support many question types, from text questions, numbers, dates, and multiple choice to advanced question types like GPS   capture, media capture, and external barcode scanners.
+-A menu is a group of forms that are all related to the same type of thing - like a folder that holds related forms.
+
+How are these components related to each other?
+- CommcareHQ9(web user)->Project->Applications->Modules->Forms
+
+CASE MANAGEMENT
+Case management in CommCare enables applications to track information over time
+
+What is case management in CommCare?
+-CommCare applications can store and update information about people or items of interest - also known as "cases"
+-The process of creating case records and updating them over time is called case management in CommCare.
+
+What does it mean to register, update, and close a case?
+i. register a case
+ii. follow up, or update
+iii. close case
+
+What do the case list and case detail screens do?
+-case list- list available cases 
+-The case details screen displays information about a case that you collected in previously submitted forms.
+
+DATA & REPORTING
+How does data travel in CommCare?
+i.Mobile workers "collects and submit data via forms "in their CommCare application.
+ii.When a cellular or WiFi network is available, "data from the CommCare application will be sent to CommCareHQ". If no       network is available, the data will stay on the device until a connection is available. 
+iii.Once data is on CommCare HQ, it can be "viewed in online reports and downloaded by authorized web users only".
+
+What types of data does CommCare capture?
+Raw Data(programmatic data or key indicator data)– data you collect through questions and answers in forms
+-- i.e questions, answers, dates, GPS coordinates, hidden values, and calculations
+  i.Form Data, or data collected in a single form.
+  ii.Case Data, or data collected for an individual case
+Worker Activity Data– data that is automatically collected by CommCare about your application and mobile workers’      performance
+
+What data reporting options are available for CommCare?
+Worker Monitoring Reports
+-Daily Form Activity reports
+standard ways of viewing CommCare data
+-raw data can be exported into Excel
+-worker activity data can be exported or viewed in online reports
