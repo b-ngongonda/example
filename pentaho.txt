@@ -1,6 +1,8 @@
 Pentaho Data Integration
 http://sourceforge.net/projects/pentaho
 
+Pentaho Data Integration(PDI) provides the Extract, Transform, and Load (ETL) capabilities that facilitate the process of capturing, cleansing, and storing data using a uniform and consistent format that is accessible and relevant to end users and IoT technologies.
+
 Components
 i. spoon - Desktop app that allows developers to create workflows- transformations and jobs. Core component that executes            data  integretion jobs and tranformations using PDI engine
 
