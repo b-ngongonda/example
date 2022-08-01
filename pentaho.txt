@@ -2,7 +2,7 @@ Pentaho Data Integration
 http://sourceforge.net/projects/pentaho
 
 Components
-i. spoon - Desktop app that allows dvelopers to create workflows- tranformations and jobs. Core component that executes            data  integretion jobs and tranformations using PDI engine
+i. spoon - Desktop app that allows developers to create workflows- transformations and jobs. Core component that executes            data  integretion jobs and tranformations using PDI engine
 
 ii. kitchen - Orchestrate PDI jobs which contains tranformations and other job entries as part of larger business process. 
             It is a command line tool for executing the jobs developed through spoon
@@ -14,4 +14,4 @@ iv. carte - Sets up dedicated remote PDI servers so you can coordinate jobs acro
 v. kettle - Kettle Extraction Transformation Load Environment. now known as PDI tool.
 
 
-Transformations are used to describe the data flow for ETL such as reading from a source, transforming data and loading it into a target location. in different words transformation is network pof logical tass called steps.
+Transformations are used to describe the data flow for ETL such as reading from a source, transforming data and loading it into a target location. in different words transformation is network of logical tasks called steps.
