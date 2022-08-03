@@ -65,5 +65,9 @@ git merge
 -git merge <branch_name> merges the branch_name with current branch
 
 
+Editing global configuration setting 
+git config --global --edit
+
+
 pull requests
 
